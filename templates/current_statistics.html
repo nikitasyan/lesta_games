@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+
+{% block head %}
+    <link rel="stylesheet" href="/statics/current_statistics.css" type="text/css" />
+{% endblock %}
+
+
+{% block content %}
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Index</th><th>Word</th><th>Tf</th><th>Idf</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for item in body_content %}
+                <tr>
+                    <td>{{ item.index }}</td>
+                    <td>{{ item.word }}</td>
+                    <td>{{ item.tf }}</td>
+                    <td>{{ item.idf }}</td>
+                </tr>
+            {% endfor %}
+
+            <tr class="foot-tr">
+                <td colspan="4">Простите мне это недоразумение</td>
+            </tr>
+        </tbody>
+    </table>
+{% endblock %}

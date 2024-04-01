@@ -1,0 +1,29 @@
+.centered {
+    left: 0;
+    right: 0;
+    padding: 50px;
+    margin: auto;
+    position: absolute;
+}
+
+body {
+    background: #555555 url("/statics/tank_ob_156_o.jpg") no-repeat center center;
+    height: 100%;
+    width: 99%;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.footer {
+    width: 200px;
+    position: fixed;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    text-align: center;
+    border: 1px solid #4d1313;
+    background-color: #2b1f1f;
+    bottom: 10px;
+    color: #aa8d57;
+    padding: 10px;
+}

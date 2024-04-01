@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+
+{% block head %}
+    <link rel="stylesheet" href="/statics/index.css" type="text/css" />
+{% endblock %}
+
+
+{% block content %}
+    <form action="/files/" class="upload-form" enctype="multipart/form-data" method="post">
+        <p>Upload the file!</p>
+        <input name="file" type="file" multiple>
+        <input type="submit" value="Send">
+    </form>
+{% endblock %}

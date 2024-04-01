@@ -1,0 +1,17 @@
+input.upload-form {
+    margin: 10px;
+}
+.upload-form {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    text-align: center;
+    top: 200px;
+    color: #b9aa99;
+    border: 1px solid #9b8458;
+    width: 20%;
+    background-color: #3e3e3e;
+    font-size: 24px;
+    padding: 10px;
+}
